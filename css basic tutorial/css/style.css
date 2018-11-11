@@ -1,0 +1,73 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+p{
+    color: chocolate;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#para{
+    color: darkgoldenrod;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.para{
+    color: darkkhaki;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2, h3, h4{
+    background: cadetblue;
+}
+
+.green{
+    color: rgb(3, 88, 3);
+}
+
+.red{
+    color: rgb(112, 3, 3);
+}
+
+table{
+    border: 1px solid;
+    border-spacing: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}
+
+tr, td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.mydiv{
+    padding: 20px;
+    border: 5px dashed;
+    background-color: coral;
+}
+
+a{
+    color: white;
+    padding: 5px;
+    background-color: crimson;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: black;
+    padding: 5px;
+    background-color: rgb(217, 220, 20);
+    margin-left: 10px;
+}

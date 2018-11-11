@@ -1,0 +1,176 @@
+body{
+    cursor: default;
+    margin: 0px;
+    font-family: arial;
+}
+
+.top{
+    width: 80%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.top_left{
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    float: left;
+}
+
+.top_right{
+    margin: 0px;
+    padding: 0px;
+    width: 75%;
+    float: left;
+}
+
+.top_right ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_right li{
+    margin-left: 5px;
+    padding: 20px;
+    list-style-type: none;
+    float: left;
+}
+
+.top_right li a {
+    margin-left: 5px;
+    padding: 20px;
+    list-style-type: none;
+    float: left;
+    background-color: lightsalmon;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top_right li a:hover {
+    margin-left: 5px;
+    padding: 20px;
+    list-style-type: none;
+    float: left;
+    background-color: lightsalmon;
+    color: white;
+    text-decoration: none;
+}
+
+.mycleardiv{
+    margin: 0px;
+    clear: both;
+}
+
+.content{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.content h1{
+    margin-top: 15px;
+    padding: 0px;
+    font-size: 35px;
+    color: rgb(177, 85, 55);
+    text-transform: uppercase;
+    background: none;
+}
+
+.block{
+    margin: 5px;
+    padding: 0px;
+    width: 24%;
+    float: left;
+}
+
+.block p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.block h2{
+    margin: 5px;
+    padding: 0px;
+    height: 70px;
+    font-size: 25px;
+    color: rgb(177, 85, 55);
+    text-transform: uppercase;
+    background: none;
+    text-align: center;
+}
+
+.block img{
+    margin-top: 5px;
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+}
+
+.footer{
+    margin-top: 5px; 
+    background-color: #ccc;
+    padding: 7px;
+}
+
+.footer ul{
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.footer li{
+    margin-left: 5px;
+    list-style-type: none;
+    float: left;
+}
+
+.footer li a {
+    margin-left: 5px;
+    list-style-type: none;
+    float: left;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    margin-left: 5px;
+    list-style-type: none;
+    float: left;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+    .top{
+        width: 80%;
+    }
+    .top_left{
+        width: 100%;
+    }
+    .top_right{
+        width: 100%;
+    }
+    .top_right ul,.top_right li,.top_right a{
+        width: 93%;
+        padding: 0px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .top_left img{
+        margin-left: 80px;
+    }
+    .block,.block p,.block h2,.block img{
+        width: 100%
+    }
+    .footer li, .footer ul, .footer a{
+        width: 93%;
+        padding: 0px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
